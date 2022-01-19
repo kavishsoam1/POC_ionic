@@ -1,3 +1,19 @@
+
+      section {
+        margin-top: 1em;
+        margin-bottom: 2.5em;
+        margin-left: 50%;
+      }
+
+      section:not(.full-width),
+      .full-width > header {
+        padding: 0 10px;
+      }
+
+      .text-center {
+        text-align: center !important;
+      }
+
 #container {
   text-align: center;
 

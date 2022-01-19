@@ -1,4 +1,31 @@
-<div id="container">
-  <strong>{{ name }}</strong>
-  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-</div>
+<!-- <div id="container"> -->
+  <!-- <strong>{{ name }}</strong>
+  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p> -->
+<!-- </div> -->
+
+
+
+<ion-content>
+<ion-list>
+  <ion-item>
+    <ion-label position="stacked">User Name</ion-label>
+    <ion-input clearInput placeholder="name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Email</ion-label>
+    <ion-input clearInput placeholder="email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Password</ion-label>
+    <ion-input clearInput placeholder="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<section>
+  <ion-button color="success">Save</ion-button>
+  <ion-button color="danger">Cancel</ion-button>
+</section>
+</ion-content>
